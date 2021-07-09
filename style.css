@@ -1,0 +1,70 @@
+.box-love{
+  background: url('https://scr.vn/wp-content/uploads/2020/08/H%C3%ACnh-m%E1%BA%B7t-c%C6%B0%E1%BB%9Di-%C4%91%E1%BB%83u-nguy-hi%E1%BB%83m.jpg');
+  width: 450px;
+  height: 450px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto; 
+}
+.box{
+ position: absolute;
+  top: 40%;
+  left: 35%
+}
+button{
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  background: red;
+  color: #fff;
+  outline:none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+button:hover{
+  cursor:pointer;
+  opacity: 0.6;
+}
+span{
+   position: absolute;
+  top: 30%;
+  left: 25%;
+  text-align: center;
+  margin-top: -50px;
+  display: block;
+  
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.move{
+        transform: translate(-200%, -100% );
+         transition: 0.01s;
+  }
+  .move1{
+        transform: translate(200%, -100% );
+         transition: 0.01s;
+  }
+  
+  .move3{
+        transform: translate(100%, -100% );
+         transition: 0.01s;
+  }
+  .move4{
+        transform: translate(150%, 150% );
+         transition: 0.01s;
+  }
+  .move5{
+        transform: translate(10%, 80% );
+         transition: 0.01s;
+  }
+
+  .move6{
+        transform: translate(-100%, -200% );
+         transition: 0.01s;
+  }
+  .move7{
+        transform: translate(-20%, -100% );
+         transition: 0.01s;
+  }
